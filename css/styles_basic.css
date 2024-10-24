@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: 16px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    /* Mantiene el color del texto circundante */
+    text-decoration: none;
+    /* Eliminar subrayado */
+    transition: color 0.3s ease;
+    /* Añade una transición suave para los cambios de color */
+}
+
+a:hover {
+    color: blueviolet;
+    /* Cambia el color al pasa el cursor pon encima */
+}
+
+ul {
+    list-style-type: none;
+    /* Elimina viñetas*/
+    padding-left: 0;
+    /* Elimina el espaciado a la izquierda */
+    margin: 0;
+    /* Elimina el margen */
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
