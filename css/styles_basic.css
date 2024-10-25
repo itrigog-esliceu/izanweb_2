@@ -92,16 +92,52 @@ header .top {
 
 main .projects {
     padding: 1rem;
+    border: 1px solid;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+    border: 1px solid;
 }
 
 main .work {
    padding-left: 1rem;
+   border: 1px solid;
+}
+
+.w1,
+.w2 {
+    border: 1px solid;
 }
 
 main .education {
     padding-bottom: 2rem;
+    border: 1px solid;
 }
 
 main {
     display: flex;
+}
+
+.reviews {
+    display: flex;
+}
+
+.review_1 {
+    border: 1px solid;
+}
+
+.review_2 {
+    border: 1px solid;
+}
+
+.review_3 {
+    border : 1px solid;
+}
+
+.rights {
+    text-align: center;
 }
