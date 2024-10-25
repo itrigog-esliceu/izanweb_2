@@ -25,9 +25,7 @@ h3 {
     font-size: 2.6rem;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     text-align: center;
 }
 
@@ -71,3 +69,13 @@ img {
     text-align: right;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
