@@ -25,7 +25,9 @@ h3 {
     font-size: 2.6rem;
 }
 
-h1 {
+h1, 
+h2,
+h3  {
     text-align: center;
 }
 
@@ -86,4 +88,20 @@ header .top {
     flex-direction: column;
     justify-content: center;
     padding-bottom: 3rem;
+}
+
+main .projects {
+    padding: 1rem;
+}
+
+main .work {
+   padding-left: 1rem;
+}
+
+main .education {
+    padding-bottom: 2rem;
+}
+
+main {
+    display: flex;
 }
