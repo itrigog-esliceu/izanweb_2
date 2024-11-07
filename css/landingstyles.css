@@ -1,4 +1,17 @@
+:root {
+    primary-color: #7e7d7c
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#showcase {
+    background-image: url(../image/future.jpg);
 }
