@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="css/registre.css"
+</head>
+<>
+    <h1>Formulari de Registre</h1>
+        <form action="login.html" method="post">
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" placeholder="Escriu el teu nom" required>
+            <label for="llinatges">Llinatges</label>
+            <input id="llinatges" type="text" placeholder="Escriu ell teus llinatges" required>
+        </form>
+            <label for="home">Home</label>
+            <input name="option" type="radio" id="home" value="choice-1" />
+            <label for="dona">Dona</label>
+            <input name="option" type="radio" id="home" value="choice-2" />
+        <form action="login.html" method="post">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" id="email" type="email" placeholder="Escriu el teu correu electrónic." required>
+            <label for="password">Contrasenya</label>
+            <input id="password" type="password" placeholder="Escriu una contrasenya" required minlength="5" maxlength="10">
+        </form>
+        <form>
+            <label for="date">Data de naixement</label>
+            <input id="date" type="date" placeholder="Escriu sa teva data de naixement" required>
+        </form>
+            <label for="termes i condicions">Estic d'acord amb els termes i condicions</label>
+            <input id="tremes i condicions" type="radio" required>
+        <form>
+            <input id="submit" type="submit" value="Enviar">
+        </form>
+
+</body>
+</html>
